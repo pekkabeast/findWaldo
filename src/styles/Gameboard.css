@@ -1,0 +1,9 @@
+.gameboard {
+  background-color: black;
+  height: 100%;
+}
+
+.gameImage {
+  width: 100%;
+  cursor: url("../styles/circle-solid.svg"), auto;
+}

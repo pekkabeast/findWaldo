@@ -1,0 +1,11 @@
+.header {
+  background-color: #172554;
+  height: 80px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.header h1 {
+  color: white;
+  align-items: center;
+}
