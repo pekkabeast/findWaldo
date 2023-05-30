@@ -9,3 +9,21 @@ body,
 .App {
   height: 100%;
 }
+
+.character-menu {
+  position: absolute;
+  width: min-content;
+  background-color: rgba(202, 198, 198, 0.8);
+  border-radius: 0.5rem;
+}
+
+.character-menu li {
+  list-style-type: none;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.character-menu li:hover {
+  background-color: rgba(247, 243, 243, 0.8);
+}

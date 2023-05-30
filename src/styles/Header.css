@@ -1,11 +1,36 @@
 .header {
   background-color: #172554;
-  height: 80px;
+  height: 50px;
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 .header h1 {
   color: white;
   align-items: center;
+}
+
+.timer {
+  color: white;
+}
+
+.score {
+  color: white;
+}
+
+.restart-btn {
+  appearance: none;
+  background-color: #172554;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.restart-btn:hover {
+  outline: 1px solid white;
 }

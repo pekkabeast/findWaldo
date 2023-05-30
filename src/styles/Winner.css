@@ -1,0 +1,15 @@
+.winner {
+  position: fixed;
+  top: 50px;
+  left: 45%;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: max-content;
+  width: max-content;
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
